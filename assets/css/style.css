@@ -1,0 +1,65 @@
+body {
+	background-image: url(../images/congruent_pentagon/congruent_pentagon.png)
+}
+
+.title {
+	background-color: #FF7F1B;
+	color: #ffffff;
+	padding: 0px 0px 10px 40px;
+	margin-bottom: 12px;
+}
+
+.instructions {
+	background-color: #D37BFF;
+	color: #ffffff;
+	padding: 20px;
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+.targetNumberArea {
+	background-color: #FF60CD;
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+}
+
+#targetNumber {
+	padding: 21px;
+}
+
+.scoreArea {
+	padding: 15px;
+	background-color: #47D7FF;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.track {
+	margin-bottom: 12px;
+}
+
+.crystals {
+	margin-bottom: 12px;
+}
+
+.scoreStatement {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px 0px 0px 10px;
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+.userScoreDiv {
+	background-color: #4aaaa5;
+	padding: 30px;
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+
+
+
