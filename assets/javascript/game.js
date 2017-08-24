@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+	var wins = 0;
+	var losses = 0;
+
+	$("#winCount").html(wins);
+	$("#lossCount").html(losses);
+
 	userScore = 0;
 	$("#userScore").html(userScore);
 
@@ -35,11 +41,12 @@ $(document).ready(function() {
 	$("#crystal1").on("click", function() {
 
 		userScore += crystal1Number;
-
 		$("#userScore").html(userScore);
 
 		if (userScore === targetNumber) {
 			userScore = 0;
+			wins++;
+			$("#winCount").html(wins);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -50,6 +57,8 @@ $(document).ready(function() {
 
 		if (userScore > targetNumber) {
 			userScore = 0;
+			losses++;
+			$("#lossCount").html(losses);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -65,11 +74,12 @@ $(document).ready(function() {
 	$("#crystal2").on("click", function() {
 
 		userScore += crystal2Number;
-
 		$("#userScore").html(userScore);
 
 		if (userScore === targetNumber) {
 			userScore = 0;
+			wins++;
+			$("#winCount").html(wins);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -80,6 +90,8 @@ $(document).ready(function() {
 
 		if (userScore > targetNumber) {
 			userScore = 0;
+			losses++;
+			$("#lossCount").html(losses);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -95,11 +107,12 @@ $(document).ready(function() {
 	$("#crystal3").on("click", function() {
 
 		userScore += crystal3Number;
-
 		$("#userScore").html(userScore);
 
 		if (userScore === targetNumber) {
 			userScore = 0;
+			wins++;
+			$("#winCount").html(wins);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -110,6 +123,8 @@ $(document).ready(function() {
 
 		if (userScore > targetNumber) {
 			userScore = 0;
+			losses++;
+			$("#lossCount").html(losses);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -124,11 +139,12 @@ $(document).ready(function() {
 	$("#crystal4").on("click", function() {
 
 		userScore += crystal4Number;
-
 		$("#userScore").html(userScore);
 
 		if (userScore === targetNumber) {
 			userScore = 0;
+			wins++;
+			$("#winCount").html(wins);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
@@ -139,6 +155,8 @@ $(document).ready(function() {
 
 		if (userScore > targetNumber) {
 			userScore = 0;
+			losses++;
+			$("#lossCount").html(losses);
 			targetNumber = targetNumberChooser();
 			$("#targetNumber").html(targetNumber);
 			crystal1Number = crystal1NumberChooser();
