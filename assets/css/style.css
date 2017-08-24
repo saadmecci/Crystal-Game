@@ -26,14 +26,14 @@ body {
 }
 
 #targetNumber {
-	padding: 21px;
+	padding: 20px;
 }
 
 .scoreArea {
-	padding: 15px;
+	padding: 14.5px;
 	background-color: #47D7FF;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 .track {
